@@ -1,0 +1,16 @@
+.logo{
+    width: 110px;
+}
+.cities-card{
+    display: flex;
+    gap: 20px;
+    /* justify-content: center;
+    align-items: center; */
+    width: fit-content;
+    margin: 0 auto;
+}
+@media screen and (max-width: 760px){
+    .cities-card{
+        flex-direction: column;
+    }   
+}
